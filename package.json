@@ -10,10 +10,10 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "react": "^18.2.0",  // Updated to latest version
-    "react-dom": "^18.2.0",  // Updated to latest version
-    "react-scripts": "5.0.1",  // Updated to latest version
-    "lucide-react": "^0.12.0"  // Update if there's a newer version
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "lucide-react": "^0.12.0"
   },
   "devDependencies": {},
   "author": "",
