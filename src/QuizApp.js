@@ -1,6 +1,7 @@
+// src/QuizApp.js
 import React, { useState } from 'react';
 import { AlertCircle, CheckCircle, ChevronRight, RotateCcw } from 'lucide-react';
-import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
+import { Alert, AlertDescription, AlertTitle } from './components/ui/alert'; // Adjusted path
 
 const questions = [
   {
