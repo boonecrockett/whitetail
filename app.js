@@ -27,7 +27,7 @@ const questions = [
         correctAnswer: 1,
         explanation: "The typical pattern of mature whitetail antler development is an unbranched main beam that normally develops from three to seven (or more) points arising from the top of the main beam."
     },
-    // Add the rest of your questions here...
+    // ... add the rest of your questions here
 ];
 
 const QuizApp = () => {
@@ -41,7 +41,7 @@ const QuizApp = () => {
         setSelectedAnswer(choiceIndex);
         setShowExplanation(true);
         if (choiceIndex === questions[currentQuestion].correctAnswer) {
-            setScore(score + 1);
+            setScore((prevScore) => prevScore + 1);
         }
     };
 
@@ -49,7 +49,7 @@ const QuizApp = () => {
         setShowExplanation(false);
         setSelectedAnswer(null);
         if (currentQuestion < questions.length - 1) {
-            setCurrentQuestion(currentQuestion + 1);
+            setCurrentQuestion((prevQuestion) => prevQuestion + 1);
         } else {
             setQuizComplete(true);
         }
