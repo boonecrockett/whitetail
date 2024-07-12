@@ -1,5 +1,4 @@
 const { useState } = React;
-const { AlertCircle, ChevronRight, RotateCcw } = lucide;
 
 const Alert = ({ children, className }) => (
     <div className={`bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4 ${className}`} role="alert">
@@ -70,9 +69,8 @@ const QuizApp = () => {
                 <p className="text-xl mb-4">Your final score: {score} out of {questions.length}</p>
                 <button
                     onClick={resetQuiz}
-                    className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 flex items-center"
+                    className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
                 >
-                    <RotateCcw className="mr-2" />
                     Restart Quiz
                 </button>
             </div>
@@ -106,7 +104,6 @@ const QuizApp = () => {
             </div>
             {showExplanation && (
                 <Alert className="mt-4">
-                    <AlertCircle className="h-4 w-4" />
                     <AlertTitle>Explanation</AlertTitle>
                     <AlertDescription>
                         {currentQ.explanation}
@@ -116,10 +113,9 @@ const QuizApp = () => {
             {showExplanation && (
                 <button
                     onClick={nextQuestion}
-                    className="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 flex items-center"
+                    className="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
                 >
                     {currentQuestion < questions.length - 1 ? 'Next Question' : 'Finish Quiz'}
-                    <ChevronRight className="ml-2" />
                 </button>
             )}
             <p className="mt-4">Current Score: {score} / {currentQuestion + 1}</p>
