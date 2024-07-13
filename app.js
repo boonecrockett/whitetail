@@ -294,7 +294,7 @@ const QuizApp = () => {
 
     return (
         <div className="max-w-2xl mx-auto p-4">
-            <h1 className="text-2xl font-bold mb-4">B&C Whitetail Scoring Quiz</h1>
+            <h1 className="text-2xl font-bold mb-4">B&C Whitetail Scoring - Study Guide</h1>
             <p className="mb-4">Question {currentQuestion + 1} of {questions.length}</p>
             <p className="text-lg font-semibold mb-4">{currentQ.question}</p>
             <div className="space-y-2">
