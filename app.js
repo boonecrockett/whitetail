@@ -24,7 +24,7 @@ const questions = [
             "A flat, palmate structure similar to moose antlers"
         ],
         correctAnswer: 1,
-        explanation: "The typical pattern of mature whitetail antler development is an unbranched main beam that normally develops from three to seven (or more) points arising from the top of the main beam."
+        explanation: "The typical pattern of mature whitetail antler development is an unbranched main beam that normally develops from three to seven (or more) points arising from the top of the main beam. (How to Score North American Big Game, p. 121)"
     },
     {
         question: "Which of the following is considered an abnormal point on a whitetail deer rack?",
@@ -35,7 +35,7 @@ const questions = [
             "The main beam tip"
         ],
         correctAnswer: 2,
-        explanation: "Points arising from the sides, top inside edge, or bottom of the main beam are considered abnormal points on a whitetail deer rack."
+        explanation: "Points arising from the sides, top inside edge, or bottom of the main beam are considered abnormal points on a whitetail deer rack. (How to Score North American Big Game, p. 125)"
     },
     {
         question: "How many circumference measurements are always taken on whitetail antlers?",
@@ -46,7 +46,7 @@ const questions = [
             "5"
         ],
         correctAnswer: 2,
-        explanation: "Four and only four circumferences are always taken on whitetails regardless of the number of normal points."
+        explanation: "Four and only four circumferences are always taken on whitetails regardless of the number of normal points. (How to Score North American Big Game, p. 129)"
     },
     {
         question: "Where is the H-1 circumference measurement taken?",
@@ -57,7 +57,7 @@ const questions = [
             "Halfway between the G-1 and the beam tip"
         ],
         correctAnswer: 1,
-        explanation: "The H-1 circumference is taken at the narrowest place between the burr and the G-1 (brow tine)."
+        explanation: "The H-1 circumference is taken at the narrowest place between the burr and the G-1 (brow tine). (How to Score North American Big Game, p. 129)"
     },
     {
         question: "What is the minimum score for a typical whitetail deer to qualify for Boone and Crockett Awards?",
@@ -68,7 +68,7 @@ const questions = [
             "180"
         ],
         correctAnswer: 1,
-        explanation: "The minimum score for a typical whitetail deer to qualify for Boone and Crockett Awards is 160."
+        explanation: "The minimum score for a typical whitetail deer to qualify for Boone and Crockett Awards is 160. (How to Score North American Big Game, p. 131)"
     },
     {
         question: "How are unmatched points at the end of the main beam treated?",
@@ -79,7 +79,7 @@ const questions = [
             "They are not counted at all"
         ],
         correctAnswer: 1,
-        explanation: "Extra, unpaired points at the end of the beam that project upward along the outside edge of the main beam are treated as normal points."
+        explanation: "Extra, unpaired points at the end of the beam that project upward along the outside edge of the main beam are treated as normal points. (How to Score North American Big Game, p. 126)"
     },
     {
         question: "What is a 'non-symmetry point'?",
@@ -90,7 +90,7 @@ const questions = [
             "A point that is broken off"
         ],
         correctAnswer: 1,
-        explanation: "A non-symmetry point is an extra unmatched point that occurs at some position other than at the end of the beam. It is treated as an abnormal point."
+        explanation: "A non-symmetry point is an extra unmatched point that occurs at some position other than at the end of the beam. It is treated as an abnormal point. (How to Score North American Big Game, p. 127-128)"
     },
     {
         question: "How is the greatest spread measurement taken?",
@@ -101,7 +101,7 @@ const questions = [
             "It's not measured, only calculated"
         ],
         correctAnswer: 2,
-        explanation: "The greatest spread measurement is best taken by laying the rack against a vertical wall, using a carpenter's level to mark the widest point, and measuring with a ruler."
+        explanation: "The greatest spread measurement is best taken by laying the rack against a vertical wall, using a carpenter's level to mark the widest point, and measuring with a ruler. (How to Score North American Big Game, p. 123-124)"
     },
     {
         question: "What is the minimum score for a non-typical Coues' whitetail to qualify for Pope and Young?",
@@ -112,7 +112,7 @@ const questions = [
             "100"
         ],
         correctAnswer: 1,
-        explanation: "The minimum score for a non-typical Coues' whitetail to qualify for Pope and Young is 80."
+        explanation: "The minimum score for a non-typical Coues' whitetail to qualify for Pope and Young is 80. (How to Score North American Big Game, p. 131)"
     },
     {
         question: "How many abnormal inches are required for a whitetail to be classified as non-typical in Pope and Young?",
@@ -123,7 +123,7 @@ const questions = [
             "20 inches"
         ],
         correctAnswer: 2,
-        explanation: "A whitetail must have 15 abnormal inches to be classified as non-typical in Pope and Young."
+        explanation: "A whitetail must have 15 abnormal inches to be classified as non-typical in Pope and Young. (How to Score North American Big Game, p. 131)"
     },
     {
         question: "Where is the H-4 circumference taken if there are fewer than four normal points?",
@@ -134,7 +134,7 @@ const questions = [
             "It's not measured"
         ],
         correctAnswer: 2,
-        explanation: "If there are fewer than four measured normal points per antler, the H-4 circumference is taken on the main beam halfway between the center of the G-3 point base and the beam tip."
+        explanation: "If there are fewer than four measured normal points per antler, the H-4 circumference is taken on the main beam halfway between the center of the G-3 point base and the beam tip. (How to Score North American Big Game, p. 129-130)"
     },
     {
         question: "How are circumference measurements taken when an abnormal point arises between normal points?",
@@ -145,7 +145,7 @@ const questions = [
             "At the widest point of the abnormal growth"
         ],
         correctAnswer: 1,
-        explanation: "When an abnormal point arises between normal points, the circumference measurements are taken at the narrowest location between normal points on either side of the abnormal point."
+        explanation: "When an abnormal point arises between normal points, the circumference measurements are taken at the narrowest location between normal points on either side of the abnormal point. (How to Score North American Big Game, p. 130)"
     },
     {
         question: "What is done if a G-1 point (brow tine) is missing on one antler?",
@@ -156,7 +156,7 @@ const questions = [
             "Both H-1 and H-2 measurements are taken at the same location"
         ],
         correctAnswer: 2,
-        explanation: "If a G-1 point (brow tine) is missing on one antler, treat the existing brow tine on the opposite antler as a normal point, and match it against a zero value for the missing G-1."
+        explanation: "If a G-1 point (brow tine) is missing on one antler, treat the existing brow tine on the opposite antler as a normal point, and match it against a zero value for the missing G-1. (How to Score North American Big Game, p. 126)"
     },
     {
         question: "How is the inside spread credit determined?",
@@ -167,7 +167,7 @@ const questions = [
             "It's not included in the final score"
         ],
         correctAnswer: 1,
-        explanation: "The inside spread credit cannot exceed the length of the longer antler main beam. If the inside spread measurement does exceed the longer main beam, record the longer main beam length as the spread credit."
+        explanation: "The inside spread credit cannot exceed the length of the longer antler main beam. If the inside spread measurement does exceed the longer main beam, record the longer main beam length as the spread credit. (How to Score North American Big Game, p. 124-125)"
     },
     {
         question: "What is a Coues' whitetail deer?",
@@ -178,7 +178,7 @@ const questions = [
             "An extinct subspecies of whitetail deer"
         ],
         correctAnswer: 1,
-        explanation: "The Coues' whitetail is a small mountain-dwelling subspecies found throughout the American Southwest and Mexico."
+        explanation: "The Coues' whitetail is a small mountain-dwelling subspecies found throughout the American Southwest and Mexico. (How to Score North American Big Game, p. 121)"
     },
     {
         question: "How are burr tines or 'beauty points' classified?",
@@ -189,7 +189,7 @@ const questions = [
             "As G-1 points"
         ],
         correctAnswer: 1,
-        explanation: "Burr tines or beauty points (points arising from the antler burr) are classified as abnormal points."
+        explanation: "Burr tines or beauty points (points arising from the antler burr) are classified as abnormal points. (How to Score North American Big Game, p. 125)"
     },
     {
         question: "What is the correct way to measure a curved antler point?",
@@ -200,7 +200,7 @@ const questions = [
             "By averaging the inside and outside measurements"
         ],
         correctAnswer: 1,
-        explanation: "Antler points are measured along the outside of their curve in the center of the tine."
+        explanation: "Antler points are measured along the outside of their curve in the center of the tine. (How to Score North American Big Game, p. 128)"
     },
     {
         question: "How is the Final Score calculated for a typical whitetail?",
@@ -211,7 +211,7 @@ const questions = [
             "Average of right and left antler scores"
         ],
         correctAnswer: 1,
-        explanation: "For a typical whitetail, the Final Score is calculated by subtracting the total differences (Column 3) from the subtotal of measurements and spread credit."
+        explanation: "For a typical whitetail, the Final Score is calculated by subtracting the total differences (Column 3) from the subtotal of measurements and spread credit. (How to Score North American Big Game, p. 130-131)"
     },
     {
         question: "What's the difference in scoring between typical and non-typical whitetail deer?",
@@ -222,7 +222,7 @@ const questions = [
             "There is no difference in scoring"
         ],
         correctAnswer: 2,
-        explanation: "The main difference is that for non-typical deer, the total length of abnormal points is added to the score, while for typical deer, it's subtracted as part of the differences."
+        explanation: "The main difference is that for non-typical deer, the total length of abnormal points is added to the score, while for typical deer, it's subtracted as part of the differences. (How to Score North American Big Game, p. 130-131)"
     },
     {
         question: "What should be done if a normal point is broken off to less than an inch long?",
@@ -233,7 +233,7 @@ const questions = [
             "Record a zero and note it in the Remarks section"
         ],
         correctAnswer: 3,
-        explanation: "If a normal point has been broken off to less than an inch long, record a zero to indicate its condition and note the action in the Remarks section. This preserves the sequence and avoids any artificial penalty for non-symmetry."
+        explanation: "If a normal point has been broken off to less than an inch long, record a zero to indicate its condition and note the action in the Remarks section. This preserves the sequence and avoids any artificial penalty for non-symmetry. (How to Score North American Big Game, p. 127)"
     }
 ];
 
