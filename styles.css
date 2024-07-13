@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #ffffff; /* This is the grey background */
+    background-color: #ffffff; /* This is the white background */
 }
 
 #root {
@@ -10,7 +10,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     background-color: white; /* This ensures the root container has a white background */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0);
     border-radius: 8px;
 }
 
